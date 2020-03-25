@@ -2,7 +2,6 @@ package com.geekbrains.rpg.game.logic;
 
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.math.MathUtils;
 import com.geekbrains.rpg.game.logic.utils.ObjectPool;
 
 public class TextObjectController extends ObjectPool<TextObject> {

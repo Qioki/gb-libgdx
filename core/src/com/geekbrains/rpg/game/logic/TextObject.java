@@ -11,7 +11,6 @@ import com.geekbrains.rpg.game.logic.utils.Poolable;
 public class TextObject  implements Poolable, MapElement {
 
     private GameController gc;
-    private PowerUp.Type type;
     private String text;
     private Vector2 position;
     private Vector2 velocity;
@@ -34,7 +33,6 @@ public class TextObject  implements Poolable, MapElement {
         position.set(x, y+30);
         velocity.set(MathUtils.random(-10.0f, 10.0f), 30f);
         time = 0.0f;
-        type = PowerUp.Type.values()[MathUtils.random(0, 1)];
         active = true;
     }
 
